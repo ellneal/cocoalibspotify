@@ -4,4 +4,5 @@
 
 #ifdef __OBJC__
 	#import <Foundation/Foundation.h>
+    #pragma clang diagnostic ignored "-Warc-performSelector-leaks"
 #endif
